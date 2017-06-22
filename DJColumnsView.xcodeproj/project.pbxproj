@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D71A8E401EFA9D3900849B71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D71A8E3F1EFA9D3900849B71 /* main.m */; };
+		D71A8E431EFA9D3900849B71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D71A8E421EFA9D3900849B71 /* AppDelegate.m */; };
+		D71A8E461EFA9D3900849B71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71A8E451EFA9D3900849B71 /* ViewController.m */; };
+		D71A8E491EFA9D3900849B71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71A8E471EFA9D3900849B71 /* Main.storyboard */; };
+		D71A8E4B1EFA9D3900849B71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71A8E4A1EFA9D3900849B71 /* Assets.xcassets */; };
+		D71A8E4E1EFA9D3900849B71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71A8E4C1EFA9D3900849B71 /* LaunchScreen.storyboard */; };
+		D71A8E571EFA9DFB00849B71 /* DJColumnsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D71A8E561EFA9DFB00849B71 /* DJColumnsView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D71A8E3B1EFA9D3900849B71 /* DJColumnsView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJColumnsView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71A8E3F1EFA9D3900849B71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D71A8E411EFA9D3900849B71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D71A8E421EFA9D3900849B71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D71A8E441EFA9D3900849B71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D71A8E451EFA9D3900849B71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D71A8E481EFA9D3900849B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D71A8E4A1EFA9D3900849B71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D71A8E4D1EFA9D3900849B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D71A8E4F1EFA9D3900849B71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D71A8E551EFA9DFB00849B71 /* DJColumnsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJColumnsView.h; sourceTree = "<group>"; };
+		D71A8E561EFA9DFB00849B71 /* DJColumnsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJColumnsView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D71A8E381EFA9D3900849B71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D71A8E321EFA9D3900849B71 = {
+			isa = PBXGroup;
+			children = (
+				D71A8E3D1EFA9D3900849B71 /* DJColumnsView */,
+				D71A8E3C1EFA9D3900849B71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D71A8E3C1EFA9D3900849B71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D71A8E3B1EFA9D3900849B71 /* DJColumnsView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D71A8E3D1EFA9D3900849B71 /* DJColumnsView */ = {
+			isa = PBXGroup;
+			children = (
+				D71A8E3E1EFA9D3900849B71 /* Supporting Files */,
+				D71A8E551EFA9DFB00849B71 /* DJColumnsView.h */,
+				D71A8E561EFA9DFB00849B71 /* DJColumnsView.m */,
+			);
+			path = DJColumnsView;
+			sourceTree = "<group>";
+		};
+		D71A8E3E1EFA9D3900849B71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D71A8E411EFA9D3900849B71 /* AppDelegate.h */,
+				D71A8E421EFA9D3900849B71 /* AppDelegate.m */,
+				D71A8E441EFA9D3900849B71 /* ViewController.h */,
+				D71A8E451EFA9D3900849B71 /* ViewController.m */,
+				D71A8E471EFA9D3900849B71 /* Main.storyboard */,
+				D71A8E4A1EFA9D3900849B71 /* Assets.xcassets */,
+				D71A8E4C1EFA9D3900849B71 /* LaunchScreen.storyboard */,
+				D71A8E4F1EFA9D3900849B71 /* Info.plist */,
+				D71A8E3F1EFA9D3900849B71 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D71A8E3A1EFA9D3900849B71 /* DJColumnsView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D71A8E521EFA9D3900849B71 /* Build configuration list for PBXNativeTarget "DJColumnsView" */;
+			buildPhases = (
+				D71A8E371EFA9D3900849B71 /* Sources */,
+				D71A8E381EFA9D3900849B71 /* Frameworks */,
+				D71A8E391EFA9D3900849B71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJColumnsView;
+			productName = DJColumnsView;
+			productReference = D71A8E3B1EFA9D3900849B71 /* DJColumnsView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D71A8E331EFA9D3900849B71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LeePersen;
+				TargetAttributes = {
+					D71A8E3A1EFA9D3900849B71 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 688J9325V6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D71A8E361EFA9D3900849B71 /* Build configuration list for PBXProject "DJColumnsView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D71A8E321EFA9D3900849B71;
+			productRefGroup = D71A8E3C1EFA9D3900849B71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D71A8E3A1EFA9D3900849B71 /* DJColumnsView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D71A8E391EFA9D3900849B71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71A8E4E1EFA9D3900849B71 /* LaunchScreen.storyboard in Resources */,
+				D71A8E4B1EFA9D3900849B71 /* Assets.xcassets in Resources */,
+				D71A8E491EFA9D3900849B71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D71A8E371EFA9D3900849B71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71A8E571EFA9DFB00849B71 /* DJColumnsView.m in Sources */,
+				D71A8E461EFA9D3900849B71 /* ViewController.m in Sources */,
+				D71A8E431EFA9D3900849B71 /* AppDelegate.m in Sources */,
+				D71A8E401EFA9D3900849B71 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D71A8E471EFA9D3900849B71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D71A8E481EFA9D3900849B71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D71A8E4C1EFA9D3900849B71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D71A8E4D1EFA9D3900849B71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D71A8E501EFA9D3900849B71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D71A8E511EFA9D3900849B71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D71A8E531EFA9D3900849B71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 688J9325V6;
+				INFOPLIST_FILE = DJColumnsView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.persenlee.DJColumnsView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D71A8E541EFA9D3900849B71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 688J9325V6;
+				INFOPLIST_FILE = DJColumnsView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.persenlee.DJColumnsView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D71A8E361EFA9D3900849B71 /* Build configuration list for PBXProject "DJColumnsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71A8E501EFA9D3900849B71 /* Debug */,
+				D71A8E511EFA9D3900849B71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D71A8E521EFA9D3900849B71 /* Build configuration list for PBXNativeTarget "DJColumnsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71A8E531EFA9D3900849B71 /* Debug */,
+				D71A8E541EFA9D3900849B71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D71A8E331EFA9D3900849B71 /* Project object */;
+}
